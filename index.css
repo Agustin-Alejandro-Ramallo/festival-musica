@@ -88,7 +88,7 @@ body{
     
 }
 .portada h1{
-    color: white;
+    color: #ffffff;
     font-family: 'Courgette', cursive;
     align-content: center;
     font-size: 85px;
@@ -97,7 +97,7 @@ body{
 .Subtitulo{
     font-family: 'Courgette', cursive;
     letter-spacing: 8px;
-    color: #86c4ba;
+    color: #f4f4f4;
     font-size: 40px;
     display: flex;
     justify-content: center;
