@@ -133,7 +133,7 @@ body{
     border-radius: 8px;
     background-color:transparent;
     perspective: 1000px;
-    box-shadow: 10px 10px 5px #1e130c;
+    /*box-shadow: 10px 10px 5px #1e130c;*/
     margin: 30px 30px 0;
     /*padding:5px;*/
     
@@ -142,8 +142,10 @@ body{
     position: relative;
 	width: 100%;
 	height: 100%;
-	transition: 1000ms;
-	transform-style: preserve-3d;
+	transition: 800ms;
+    transform-style: preserve-3d;
+    box-shadow: 10px 10px 5px #1e130c;
+    border-radius: 8px;
 }
 .frente, .atras{
     position: absolute;
@@ -169,7 +171,7 @@ body{
     text-align:center;
     align-items:center;
     border-radius: 8px;
-    
+    /*box-shadow: 10px 10px 5px #1e130c;*/
 }
 
 .contenido-atras{
@@ -211,9 +213,13 @@ body{
     background: white;
     color: #2c3e50;
 }
-
+/*
+.card:hover{
+    box-shadow: none;
+}*/
 .card:hover .completo{
     transform: rotateY(180deg);
+    
 }
 
 /*-------Seccion Galeria*/
